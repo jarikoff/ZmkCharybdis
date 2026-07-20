@@ -65,14 +65,18 @@
 
             // Thumb Clusters
             //                       w   h    x    y     rot    rx    ry
-            , <&key_physical_attrs 100 100  348  414    900    398   790>
-            , <&key_physical_attrs 100 100  418  414    1500   398   790>
-            , <&key_physical_attrs 100 100  518  420    1500   398   790>
-            , <&key_physical_attrs 100 100  382  514    1500   398   790>
-            , <&key_physical_attrs 100 100  482  520    1500   398   790>
-            , <&key_physical_attrs 100 100 1052  420 (-3000)  1102   790>
-            , <&key_physical_attrs 100 100 1067  414 (-1500)  1102   790>
-            , <&key_physical_attrs 100 100 1052  520 (-3000)  1102   790>
+            // NOTE: order must match the row-4 position order in default_transform
+            // (charybdis.dtsi), which interleaves the halves 3L / 2R / 2L / 1R.
+            // Listing all five left thumbs first makes ZMK Studio and keymap-drawer
+            // render a layout that does not match the firmware.
+            , <&key_physical_attrs 100 100  348  414    900    398   790>  // 48 RC(4,3)  L upper outer
+            , <&key_physical_attrs 100 100  418  414    1500   398   790>  // 49 RC(4,4)  L upper mid
+            , <&key_physical_attrs 100 100  518  420    1500   398   790>  // 50 RC(4,1)  L upper inner
+            , <&key_physical_attrs 100 100 1052  420 (-3000)  1102   790>  // 51 RC(4,10) R upper inner
+            , <&key_physical_attrs 100 100 1067  414 (-1500)  1102   790>  // 52 RC(4,8)  R upper outer
+            , <&key_physical_attrs 100 100  382  514    1500   398   790>  // 53 RC(4,5)  L lower outer
+            , <&key_physical_attrs 100 100  482  520    1500   398   790>  // 54 RC(4,2)  L lower inner
+            , <&key_physical_attrs 100 100 1052  520 (-3000)  1102   790>  // 55 RC(4,6)  R lower
             ;
     };
 };
