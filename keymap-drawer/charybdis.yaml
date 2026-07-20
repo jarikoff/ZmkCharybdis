@@ -50,13 +50,13 @@ layers:
   - /
   - ']'
   - SPACE
-  - L CLK
-  - R CLK
-  - ENTER
-  - Meh+ BACK SPACE
-  - '1'
-  - {t: AC NEXT KEYBOARD LAYOUT SELECT, h: LEFT GUI}
   - '2'
+  - L CLK
+  - ENTER
+  - {t: SPACE, h: Meh+ LGUI}
+  - '1'
+  - R CLK
+  - LGUI
   '1':
   - {t: ▽, type: trans}
   - F1
@@ -164,10 +164,10 @@ layers:
   - ''
   - BOOT LDR
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
