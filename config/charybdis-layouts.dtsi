@@ -79,6 +79,10 @@
             , <&key_physical_attrs 100 100  382  514    1500   398   790>  // 53 RC(4,5)  L lower outer
             , <&key_physical_attrs 100 100  418  414    1500   398   790>  // 54 RC(4,2)  L upper middle
             , <&key_physical_attrs 100 100 1052  520 (-3000)  1102   790>  // 55 RC(4,6)  R (unverified)
+            // DIAGNOSTIC ONLY -- parked off to the side, no physical counterpart.
+            , <&key_physical_attrs 100 100 1300  620       0     0     0>  // 56 RC(4,7)
+            , <&key_physical_attrs 100 100 1400  620       0     0     0>  // 57 RC(4,9)
+            , <&key_physical_attrs 100 100 1500  620       0     0     0>  // 58 RC(4,11)
             ;
     };
 };

@@ -87,6 +87,8 @@
 &kp LCTRL   &kp Z         &kp X   &kp C      &kp V      &kp B                                            &kp N      &kp M                      &kp COMMA  &kp DOT  &kp SLASH  &kp RIGHT_BRACKET
                                   &kp SPACE  &mo BTMD  &mkp LCLK    &kp ENTER  &mt LC(LS(LA(LGUI))) SPACE
                                              &mo MOD   &mkp RCLK    &kp LGUI
+// DIAGNOSTIC: probes for the dead right thumb. 7 => RC(4,7), 9 => RC(4,9), 1 => RC(4,11).
+&kp N7 &kp N9 &kp N1
             >;
         };
 
@@ -98,6 +100,7 @@
 &trans  &trans      &kp C_VOLUME_DOWN  &kp PRINTSCREEN  &kp DEL        &kp LG(PAGE_DOWN)    &kp EQUAL  &trans    &kp LBKT   &kp RBKT   &kp BACKSLASH  &trans
                                        &trans           &trans         &trans               &trans     &trans
                                                         &trans         &trans               &trans
+&none &none &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -111,6 +114,7 @@
 &bootloader     &bt BT_CLR    &none         &none         &none         &out OUT_TOG    &none   &kp LEFT_PARENTHESIS  &none  &kp RIGHT_PARENTHESIS  &none  &bootloader
                                             &trans        &trans        &trans          &trans  &trans
                                                           &trans        &trans          &trans
+&none &none &none
             >;
         };
     };
