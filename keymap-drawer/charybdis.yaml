@@ -1,64 +1,8 @@
 layout: {zmk_keyboard: charybdis}
 layers:
-  '0':
-  - ESC
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - '~'
-  - TAB
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - +
-  - LSHIFT
-  - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
-  - ;
-  - ''''
-  - LCTRL
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - N
-  - M
-  - ','
-  - .
-  - /
-  - ']'
-  - SPACE
-  - '2'
-  - L CLK
-  - ENTER
-  - {t: SPACE, h: Meh+ LGUI}
-  - '1'
-  - R CLK
-  - LGUI
+  '0': [ESC, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '~', TAB, Q, W, E, R, T, Y, U, I, O, P, +, LSHIFT, A, S, D, F, G, H, J, K, L, ;, '''', LCTRL, Z, X,
+    C, V, B, N, M, ',', ., /, ']', R CLK, Meh+ LGUI, SPACE, ENTER, '1', '2', L CLK, LGUI]
   '1':
-  - {t: ▽, type: trans}
   - F1
   - F2
   - F3
@@ -70,104 +14,162 @@ layers:
   - F9
   - F10
   - F11
-  - {t: ▽, type: trans}
-  - Alt+ F4
-  - VOLUME UP
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '`'
+  - DEV TOOLS
+  - BOOT LDR
   - {t: ▽, type: trans}
   - HOME
   - UP
   - END
-  - +
-  - DEV TOOLS
+  - INSERT
+  - PG UP
+  - '7'
+  - '8'
+  - '9'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - PLAY PAUSE
-  - {t: ▽, type: trans}
-  - BACK SPACE
+  - F13
   - {t: ▽, type: trans}
   - LEFT
-  - LEFT
-  - '-'
-  - '='
-  - '-'
-  - '}'
+  - DOWN
+  - RIGHT
+  - ENTER
+  - PG DN
+  - '4'
+  - '5'
+  - '6'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - VOLUME DOWN
-  - PRINT SCREEN
+  - ''
+  - {t: ▽, type: trans}
+  - Ctl+ LEFT
+  - CAPS
+  - Ctl+ RIGHT
   - DEL
-  - Gui+ PAGE DOWN
-  - '='
-  - {t: ▽, type: trans}
-  - '['
-  - ']'
-  - \
-  - {t: ▽, type: trans}
+  - PSCRN
+  - '1'
+  - '2'
+  - '3'
+  - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '2':
   - ZMK Studio
+  - {t: ▽, type: trans}
+  - '@'
+  - $
+  - '#'
+  - {t: ▽, type: trans}
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
+  - ^
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - BOOT LDR
+  - '`'
+  - <
+  - '='
+  - '>'
+  - '`'
+  - {t: ▽, type: trans}
   - '['
-  - ''
+  - _
   - ']'
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - '{'
-  - ''
-  - '}'
-  - ''
-  - ''
-  - BOOT LDR
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - BT CLR
-  - ''
-  - ''
-  - ''
-  - OUT TOG
-  - ''
+  - \
   - (
-  - ''
+  - '-'
   - )
+  - +
+  - '%'
+  - '{'
+  - ;
+  - '}'
+  - '!'
+  - {t: ▽, type: trans}
+  - OUT TOG
+  - {t: ▽, type: trans}
+  - '*'
+  - ':'
+  - /
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '|'
+  - '~'
+  - '&'
+  - {t: ▽, type: trans}
   - ''
-  - BOOT LDR
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  '3':
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - VOL DN
+  - MUTE
+  - VOL UP
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - PREV
+  - PP
+  - NEXT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
